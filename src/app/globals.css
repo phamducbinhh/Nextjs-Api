@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+.text-shadow {
+  -text-shadow: 1px 1px 0px red, -1px 1px 0px red, 1px -1px 0px red,
+    -1px 1px 0px red;
+}
